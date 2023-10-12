@@ -9,22 +9,23 @@ export default function App() {
 
   useEffect(() => {
     getPermission()
-    onForegroundMessage()
-      .then((payload) => {
-        console.log('Received foreground message: ', payload);
-        const { notification: { title, body } } = payload;
+    // onForegroundMessage()
+    //   .then((payload) => {
+    //     console.log('Received foreground message: ', payload);
+    //     const { notification: { title, body } } = payload;
 
-        toast(<ToastifyNotification title={title} body={body} />);
-      })
-      .catch(err => console.log('An error occured while retrieving foreground message. ', err));
-      onBackgroundMessage()
-      .then((payload) => {
-        console.log('Received background message: ', payload);
-        const { notification: { title, body } } = payload;
+    //     toast(<ToastifyNotification title={title} body={body} />);
+    //   })
+    //   .catch(err => console.log('An error occured while retrieving foreground message. ', err));
+    
+    //   onBackgroundMessage()
+    //   .then((payload) => {
+    //     console.log('Received background message: ', payload);
+    //     const { notification: { title, body } } = payload;
 
-        toast(<ToastifyNotification title={title} body={body} />);
-      })
-      .catch(err => console.log('An error occured while retrieving background message. ', err));
+    //     toast(<ToastifyNotification title={title} body={body} />);
+    //   })
+    //   .catch(err => console.log('An error occured while retrieving background message. ', err));
 
 
   }, []);

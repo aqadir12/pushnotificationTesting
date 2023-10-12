@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de8107fb.css",
+    "main.js": "/static/js/main.91c703b2.js",
+    "static/js/787.af3b04af.chunk.js": "/static/js/787.af3b04af.chunk.js",
+    "static/media/sparky-dash-high-five.gif": "/static/media/sparky-dash-high-five.c9d47f19a726eb033542.gif",
+    "index.html": "/index.html",
+    "main.de8107fb.css.map": "/static/css/main.de8107fb.css.map",
+    "main.91c703b2.js.map": "/static/js/main.91c703b2.js.map",
+    "787.af3b04af.chunk.js.map": "/static/js/787.af3b04af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de8107fb.css",
+    "static/js/main.91c703b2.js"
+  ]
+}
